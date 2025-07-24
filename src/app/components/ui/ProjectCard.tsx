@@ -39,7 +39,7 @@ export default function ProjectCard({
         </div>
 
         {/* Content */}
-        <div className="p-4 flex flex-col gap-2">
+        <div className="p-2 flex flex-col gap-2">
           <h3 className="text-xl font-semibold">{title}</h3>
 
           {/* Tags */}
