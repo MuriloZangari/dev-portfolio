@@ -3,7 +3,7 @@ import ExpandableCard from '../ui/ExpandableCard';
 
 export default function Experience() {
   return (
-    <ExpandableCard title="Experience">
+    <ExpandableCard title="Work Experience">
       <ExperienceItem
         title="Full-stack Software Engineer"
         company="Brick Abode"
