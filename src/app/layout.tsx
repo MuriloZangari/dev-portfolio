@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <div className="min-h-screen transition-colors duration-500">
             <Header />
-            <main className="px-4 sm:px-6 md:px-8">{children}</main>
+            <main className="">{children}</main>
             <Footer />
           </div>
         </ThemeProvider>

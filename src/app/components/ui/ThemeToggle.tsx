@@ -17,7 +17,7 @@ export default function ThemeToggle() {
 
   return (
     <div className="group relative">
-      <div className="fixed top-10 right-10 z-50">
+      <div className="fixed top-6 right-6 z-50">
         <motion.button
           onClick={() => setTheme(isDark ? 'light' : 'dark')}
           className={`
@@ -58,7 +58,7 @@ export default function ThemeToggle() {
         </motion.button>
       </div>
       {/* Tooltip for accessibility */}
-      <div className="absolute top-full right-0 mt-3 w-max max-w-xs px-3 py-1.5 rounded-md bg-gray-900 text-white dark:bg-white dark:text-gray-900 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-lg">
+      <div className="absolute top-full right-6 mt-3 w-max max-w-xs px-3 py-1.5 rounded-md bg-gray-900 text-white dark:bg-white dark:text-gray-900 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-lg">
         Toggle between Light and Dark mode
       </div>
     </div>
