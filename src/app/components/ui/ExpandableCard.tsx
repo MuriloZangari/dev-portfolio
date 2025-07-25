@@ -38,7 +38,7 @@ export default function ExpandableCard({
       <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-2xl bg-gray-800 dark:bg-white z-0" />
 
       {/* Card principal */}
-      <div className="relative z-10 p-6 rounded-2xl border border-black dark:border-white bg-white dark:bg-gray-800 transition-all duration-300">
+      <div className="relative z-10 p-6 rounded-2xl border border-black dark:border-white bg-gray-100 dark:bg-gray-900 transition-all duration-300">
         
         {/* Header clicável */}
         <div

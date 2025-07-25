@@ -18,7 +18,7 @@ export default function AnimatedLink({ href, children, className = '' }: Animate
     <Link
       href={href}
       className={`relative inline-block font-medium transition-colors duration-300
-        ${isActive ? 'text-sky-800' : 'text-gray-800 dark:text-white hover:text-sky-800'}
+        ${isActive ? 'text-sky-800' : 'text-gray-800 dark:text-gray-100 hover:text-sky-800'}
         before:content-[''] before:absolute before:bottom-0 before:left-0
         before:h-[3px] before:bg-sky-800 before:transition-all before:duration-500
         ${isActive ? 'before:w-full' : 'before:w-0 hover:before:w-full'}

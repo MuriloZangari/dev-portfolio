@@ -4,11 +4,11 @@ import AnimatedText from "../components/ui/AnimatedText";
 import { ExternalLink } from "lucide-react";
 import AnimatedDivLine from "../components/ui/AnimatedDivLine";
 
-export default function Publications() {
+export default function Contact() {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen px-4 text-center">
-      <AnimatedText className="text-3xl sm:text-4xl font-bold leading-snug">
-        Academic Publications
+      <AnimatedText className="text-4xl md:text-5xl font-bold leading-snug">
+        Get in Touch!
       </AnimatedText>
 
       <AnimatedDivLine />
@@ -17,19 +17,27 @@ export default function Publications() {
         className="max-w-xl text-gray-700 dark:text-gray-300 mb-4 text-base sm:text-lg"
         delay={0.1}
       >
-        You can explore my academic work, including peer-reviewed papers,
-        citations, and h-index on my public Google Scholar profile.
+        Contact Options
       </AnimatedText>
 
-      <AnimatedText delay={0.2}>
+      <AnimatedText delay={0.2} className="mb-6">
         <a
-          href="https://scholar.google.com/citations?hl=en&user=8Uf2cbUAAAAJ"
+          href="https://linkedin.com/in/murilozangari/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-4 py-2 bg-white dark:bg-gray-900 border border-sky-500 text-sky-700 dark:text-sky-300 font-medium rounded hover:bg-sky-50 dark:hover:bg-gray-700 transition"
+          className="inline-flex items-center text-sky-700 dark:text-sky-300 font-medium hover:underline transition"
         >
-          Visit Google Scholar
+          LinkedIn Profile
           <ExternalLink className="ml-2" size={18} />
+        </a>
+      </AnimatedText>
+
+      <AnimatedText delay={0.3}>
+        <a
+          href="mailto:murilo.zangari@gmail.com"
+          className="text-sky-700 dark:text-sky-300 font-medium hover:underline transition"
+        >
+          murilo.zangari@gmail.com
         </a>
       </AnimatedText>
     </section>

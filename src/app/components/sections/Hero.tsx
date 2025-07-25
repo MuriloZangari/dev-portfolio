@@ -5,10 +5,10 @@ export default function Hero() {
   return (
     <section className="relative mb-6">
       {/* Border shadow effect */}
-      <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-2xl bg-gray-800 dark:bg-white z-0" />
+      <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-2xl bg-gray-800 dark:bg-gray-100 z-0" />
 
       {/* Main container */}
-      <div className="relative z-10 flex flex-col items-center gap-2 text-center p-6 rounded-2xl border border-black dark:border-white bg-white dark:bg-gray-800">
+      <div className="relative z-10 flex flex-col items-center gap-2 text-center p-6 rounded-2xl border border-black dark:border-white bg-gray-100 dark:bg-gray-900">
         <Image
           src="/profile.jpg"
           alt="Murilo Zangari"

@@ -3,12 +3,18 @@
 
 
 :root {
-  --background: #ffffff;
+  --background: #f3f4f6;
   --foreground: #171717;
 
   --font-sans: var(--font-geist-sans);   /* Geist */
   --font-mono: var(--font-geist-mono);   /* Geist Mono */
   --font-serif: var(--font-serif);       /* Playfair Display (ou outra sofisticada) */
+}
+
+/* Dark mode via next-themes (class-based) */
+.dark {
+  --background: #111827;   /* Tailwind gray-900 */
+  --foreground: #f9fafb;   /* Tailwind gray-100 */
 }
 
 @theme inline {

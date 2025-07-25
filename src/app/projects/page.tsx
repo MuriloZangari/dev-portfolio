@@ -48,7 +48,7 @@ export default function Projects() {
             github="https://app.powerbi.com/view?r=eyJrIjoiOTA1NGI5NzUtY2FlMi00NDc0LWE0M2QtZWZiOGJjZWZhMDIwIiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9&pageName=ReportSection517ec5a072d57ff231ad"
           />
         </AnimatedText>
-        <AnimatedText as="div" className="" delay={0.7}>
+        <AnimatedText as="div" className="" delay={0.8}>
           <ProjectCard
             image="/tiktok.png"
             title="TikTok Video Claims Prediction"

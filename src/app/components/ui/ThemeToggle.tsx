@@ -23,7 +23,7 @@ export default function ThemeToggle() {
           className={`
             w-10 h-10 rounded-full relative flex items-center justify-center overflow-hidden
             transition-colors duration-300 shadow
-            ${isDark ? 'bg-gray-800' : 'bg-white'}
+            ${isDark ? 'bg-gray-800' : 'bg-gray-200'}
             cursor-pointer
           `}
           whileTap={{ scale: 0.9 }}

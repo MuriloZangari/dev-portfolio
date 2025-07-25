@@ -13,7 +13,7 @@ export default function Home() {
       <div className="relative w-full max-w-3xl my-6 h-[4px] overflow-hidden rounded">
         <AnimatedText
           as="div"
-          className="w-full h-full bg-gray-800 dark:bg-gray-200"
+          className="w-full h-full bg-gray-900 dark:bg-gray-200"
           delay={0.1}
         />
         <motion.div

@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           
-          <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-800 dark:text-white transition-colors duration-500">
+          <div className="min-h-screen transition-colors duration-500">
             <Header />
             <main className="px-4 sm:px-6 md:px-8">{children}</main>
           </div>
