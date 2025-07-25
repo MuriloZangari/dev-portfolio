@@ -13,15 +13,19 @@ export default function Publications() {
 
       <AnimatedDivLine />
 
-      <AnimatedText
-        className="max-w-xl text-gray-700 dark:text-gray-300 mb-4 text-base sm:text-lg"
-        delay={0.1}
-      >
-        You can explore my academic work, including peer-reviewed papers,
-        citations, and h-index on my public Google Scholar profile.
+      <AnimatedText className="max-w-3xl font-medium mb-6 text-sm md:text-base text-justify" delay={0.1}>
+        <p>Throughout my academic journey (Master’s, PhD, and Postdoc, 2012–2019), I contributed to multiple research projects centered on intelligent systems and machine learning applications for real-world challenges. These efforts led to several peer-reviewed publications in journals and conferences, advancing the fields of artificial intelligence and software engineering.</p>
       </AnimatedText>
 
-      <AnimatedText delay={0.2}>
+      <AnimatedText
+        className="max-w-xl mb-4 text-sm md:text-base"
+        delay={0.2}
+      >
+        You can explore my academic work, including peer-reviewed papers,
+        citations, and h-index on my public <b>Google Scholar</b> profile.
+      </AnimatedText>
+
+      <AnimatedText delay={0.3}>
         <a
           href="https://scholar.google.com/citations?hl=en&user=8Uf2cbUAAAAJ"
           target="_blank"

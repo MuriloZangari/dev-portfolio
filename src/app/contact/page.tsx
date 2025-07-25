@@ -14,7 +14,7 @@ export default function Contact() {
       <AnimatedDivLine />
 
       <AnimatedText
-        className="max-w-xl text-gray-700 dark:text-gray-300 mb-4 text-base sm:text-lg"
+        className="max-w-xl mb-4 text-base sm:text-lg"
         delay={0.1}
       >
         Contact Options
@@ -25,7 +25,7 @@ export default function Contact() {
           href="https://linkedin.com/in/murilozangari/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center text-sky-700 dark:text-sky-300 font-medium hover:underline transition"
+          className="inline-flex items-center text-sky-800 dark:text-sky-500 font-medium hover:underline transition"
         >
           LinkedIn Profile
           <ExternalLink className="ml-2" size={18} />
@@ -35,7 +35,7 @@ export default function Contact() {
       <AnimatedText delay={0.3}>
         <a
           href="mailto:murilo.zangari@gmail.com"
-          className="text-sky-700 dark:text-sky-300 font-medium hover:underline transition"
+          className="text-sky-800 dark:text-sky-500 font-medium hover:underline transition"
         >
           murilo.zangari@gmail.com
         </a>

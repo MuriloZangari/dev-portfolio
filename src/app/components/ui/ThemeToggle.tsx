@@ -17,7 +17,7 @@ export default function ThemeToggle() {
 
   return (
     <div className="group relative">
-      <div className="fixed top-4 right-4 md:top-6 md:right-8 z-50">
+      <div className="fixed top-10 right-10 z-50">
         <motion.button
           onClick={() => setTheme(isDark ? 'light' : 'dark')}
           className={`
@@ -53,7 +53,7 @@ export default function ThemeToggle() {
             transition={{ duration: 0.4 }}
             className={`relative z-10 ${isDark ? 'text-gray-800' : 'text-white'}`}
           >
-            {isDark ? <Sun size={20} /> : <Moon size={20} />}
+            {isDark ? <Sun size={28} /> : <Moon size={28} />}
           </motion.div>
         </motion.button>
       </div>

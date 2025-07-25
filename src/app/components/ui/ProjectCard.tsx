@@ -24,7 +24,7 @@ export default function ProjectCard({
       <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-2xl bg-gray-800 dark:bg-white z-0" />
 
       {/* Card container */}
-      <div className="relative z-10 overflow-hidden p-4 rounded-2xl border border-black dark:border-white bg-white dark:bg-gray-900 transition-all duration-300">
+      <div className="relative z-10 overflow-hidden p-4 rounded-2xl border border-black dark:border-white bg-gray-100 dark:bg-gray-900 transition-all duration-300">
         {/* Image */}
         <div className="group w-full relative overflow-hidden rounded-xl border border-black/10 dark:border-white/10 cursor-pointer">
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 to-transparent z-10" />

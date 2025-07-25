@@ -26,7 +26,7 @@ export default function MainProjectCard({
       <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-2xl bg-gray-800 dark:bg-white z-0" />
 
       {/* Container */}
-      <div className="relative z-10 flex flex-col md:flex-row p-4 overflow-hidden rounded-2xl border border-black dark:border-white bg-white dark:bg-gray-900 transition-all duration-300">
+      <div className="relative z-10 flex flex-col md:flex-row p-4 overflow-hidden rounded-2xl border border-black dark:border-white bg-gray-100 dark:bg-gray-900 transition-all duration-300">
         
         {/* Image */}
         <div className="group w-full md:w-1/2 relative overflow-hidden rounded-xl border border-black/10 dark:border-white/10 cursor-pointer">

@@ -2,7 +2,7 @@ import ExpandableCard from '../ui/ExpandableCard';
 
 export default function About() {
   return (
-    <ExpandableCard title="Summary">
+    <ExpandableCard title="Professional Summary">
       <p>
         I am a versatile software engineer with a PhD in Computer Science,
         specializing in web development and machine learning. I have a strong
