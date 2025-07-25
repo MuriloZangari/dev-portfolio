@@ -1,18 +1,57 @@
+'use client';
+
+import { motion } from 'framer-motion';
 import ExpandableCard from '../ui/ExpandableCard';
 
 export default function Skills() {
+  const skills = [
+    ['Front-End:', 'React.js, Next.js, Tailwind CSS, Vite, HTML5, Bootstrap'],
+    ['Back-End:', 'Django (incl. RESTful APIs), Node.js, OAuth2'],
+    ['DevOps & Infrastructure:', 'PostgreSQL, AWS (EC2, S3, IAM, Route 53, RDS, Cost Management, AWS Backup, Security Groups), Terraform, Docker, CI/CD (Git CLI, Github Actions, GitLab CI)'],
+    ['Testing & Quality:', 'Test-Driven Development (TDD), PyTest, Playwright, ESLint'],
+    ['AI & Machine Learning:', 'Supervised Learning (Classification, Regression), Optimization, LLM (Large Language Models), Ollama, Prompt Engineering'],
+    ['Programming Languages:', 'Python, JavaScript, TypeScript, C++'],
+    ['Data Analysis:', 'Pandas, NumPy, Scikit-learn, Data Visualization'],
+    ['Project & Workflow:', 'Agile Methodologies (Scrum, Kanban), Jira'],
+  ];
+
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.08,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 40 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "spring" as const,
+        stiffness: 300,
+        damping: 24,
+      },
+    },
+  };
+
   return (
-    <ExpandableCard title="Skills"> 
-      <ul className="list-disc pl-5 space-y-2">
-        <li><b>Front-End: </b> React.js, Next.js, Tailwind CSS, Vite, HTML5, Bootstrap</li>
-        <li><b>Back-End: </b> Django (incl. RESTful APIs), Node.js, OAuth2</li>
-        <li><b>DevOps & Infrastructure: </b> PostgreSQL, AWS (EC2, S3, IAM, Route 53, RDS, Cost Management, Backup), Terraform, Docker, CI/CD (GitHub Actions, GitLab CI)</li>
-        <li><b>Testing & Quality: </b> Test-Driven Development (TDD), PyTest, Playwright</li>
-        <li><b>AI: </b> Machine Learning, LLM (Large Language Models), Ollama</li>
-        <li><b>Programming Languages: </b> Python, JavaScript, TypeScript, C++</li>
-        <li><b>Data Analysis: </b> Pandas, NumPy, Scikit-learn, Data Visualization</li>
-        <li><b>Project & Workflow Management: </b> Jira, Agile Methodologies</li>
-      </ul>
+    <ExpandableCard title="Skills">
+      <motion.ul
+        className="list-disc pl-5 space-y-2"
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        {skills.map(([label, content], index) => (
+          <motion.li key={index} variants={item}>
+            <b>{label} </b>{content}
+          </motion.li>
+        ))}
+      </motion.ul>
     </ExpandableCard>
   );
 }
