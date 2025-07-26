@@ -50,7 +50,7 @@ export default function Home() {
         >
           As a skilled full-stack Software Developer, I am dedicated
           to turning ideas into innovative solutions. Explore my Resume and Projects
-          that showcase my expertise in web development, DevOps, and AI-drivenapplications.
+          that showcase my expertise in web development, DevOps, and AI-driven applications.
         </AnimatedText>
 
         <div className="flex flex-wrap gap-12 items-center pt-6 md:pt-0 justify-center md:justify-start mx-auto">
