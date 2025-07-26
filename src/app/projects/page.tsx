@@ -4,17 +4,17 @@ import MainProjectCard from "../components/ui/MainProjectCard";
 
 export default function Projects() {
   return (
-    <div className="relative w-full max-w-[720px] mx-auto py-4">
+    <div className="relative w-full max-w-[720px] mx-auto py-4 md:py-10">
       <AnimatedText as="div" className="items-center justify-center mb-8 mx-auto" delay={0.1}>
         <h1 className="text-3xl md:text-5xl font-bold leading-snug">Imagination Trumps Knowledge!</h1>
-      </AnimatedText>      
+      </AnimatedText>  
 
       <AnimatedText as="div" className="mb-12" delay={0.3}>
         <MainProjectCard
           image="/portfolio.png"
           title="Next.js, React, and Tailwind CSS Portfolio"
           description="This portfolio website is built with Next.js, React, and Tailwind CSS, showcasing my skills and projects."
-          tags="Next.js, React, Tailwind CSS, TypeScript"
+          tags="Next.js, React, Tailwind CSS, TypeScript, framer-motion, github, Vercel"
           link="https://github.com/MuriloZangari/dev-portfolio"
           github="https://github.com/MuriloZangari/dev-portfolio"
         />

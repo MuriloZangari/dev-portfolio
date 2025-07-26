@@ -17,16 +17,16 @@ export default function ThemeToggle() {
 
   return (
     <div className="group relative">
-      <div className="fixed top-6 right-6 z-50">
+      <div className="fixed top-6 right-16 z-50">
         <motion.button
           onClick={() => setTheme(isDark ? 'light' : 'dark')}
           className={`
-            w-10 h-10 rounded-full relative flex items-center justify-center overflow-hidden
+            w-12 h-12 rounded-full relative flex items-center justify-center overflow-hidden
             transition-colors duration-300 shadow
             ${isDark ? 'bg-gray-800' : 'bg-gray-200'}
             cursor-pointer
           `}
-          whileTap={{ scale: 0.9 }}
+          whileTap={{ scale: 0.5 }}
         >
           {/* Background burst */}
           <AnimatePresence mode="wait">
@@ -34,7 +34,7 @@ export default function ThemeToggle() {
               key={resolvedTheme}
               className="absolute inset-0"
               initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 20, opacity: 1 }}
+              animate={{ scale: 40, opacity: 1 }}
               exit={{ scale: 0, opacity: 0 }}
               transition={{ duration: 0.6, ease: 'easeOut' }}
               style={{
@@ -53,12 +53,12 @@ export default function ThemeToggle() {
             transition={{ duration: 0.4 }}
             className={`relative z-10 ${isDark ? 'text-gray-800' : 'text-white'}`}
           >
-            {isDark ? <Sun size={28} /> : <Moon size={28} />}
+            {isDark ? <Sun size={32} /> : <Moon size={32} />}
           </motion.div>
         </motion.button>
       </div>
       {/* Tooltip for accessibility */}
-      <div className="absolute top-full right-6 mt-3 w-max max-w-xs px-3 py-1.5 rounded-md bg-gray-900 text-white dark:bg-white dark:text-gray-900 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-lg">
+      <div className="hidden md:absolute top-full right-6 mt-3 w-max max-w-xs px-3 py-1.5 rounded-md bg-gray-900 text-white dark:bg-white dark:text-gray-900 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-lg">
         Toggle between Light and Dark mode
       </div>
     </div>

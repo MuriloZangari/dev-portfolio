@@ -10,9 +10,11 @@ export default function Skills() {
     ['DevOps & Infrastructure:', 'PostgreSQL, AWS (EC2, S3, IAM, Route 53, RDS, Cost Management, AWS Backup, Security Groups), Terraform, Docker, CI/CD (Git CLI, Github Actions, GitLab CI)'],
     ['Testing & Quality:', 'Test-Driven Development (TDD), PyTest, Playwright, ESLint'],
     ['AI & Machine Learning:', 'Supervised Learning (Classification, Regression), Optimization, LLM (Large Language Models), Ollama, Prompt Engineering'],
+    ['Mathematics & Statistics:', 'Probability Theory, Statistical Modeling, Hypothesis Testing, Data Mining, Optimization'],
     ['Programming Languages:', 'Python, JavaScript, TypeScript, C++'],
     ['Data Analysis:', 'Pandas, NumPy, Scikit-learn, Data Visualization'],
     ['Project & Workflow:', 'Agile Methodologies (Scrum, Kanban), Jira'],
+    ['Version Control:', 'Git, GitHub, GitLab'],
   ];
 
   const container = {

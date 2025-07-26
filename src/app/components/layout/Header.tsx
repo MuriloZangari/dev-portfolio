@@ -20,9 +20,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full p-4 md:p-8 flex justify-between items-center">
+    <header className="w-full p-4 md:p-10 flex justify-between items-center">
       {/* Desktop navigation */}
-      <nav className="hidden md:flex gap-6">
+      <nav className="hidden md:flex gap-6 mx-auto">
         {navLinks.map(({ href, label }) => (
           <AnimatedLink key={href} href={href}>
             {label}

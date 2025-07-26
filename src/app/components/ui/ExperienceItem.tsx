@@ -31,7 +31,7 @@ export default function ExperienceItem({
         mass: 0.5,
         duration: 0.6,
       }}
-      className="flex flex-col gap-1 my-6"
+      className="flex flex-col gap-1"
     >
       <h3 className="text-md font-semibold">{title}</h3>
       <p className="text-sm text-gray-700 dark:text-gray-300 italic">{company} · {period}</p>
