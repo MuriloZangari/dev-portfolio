@@ -107,19 +107,19 @@ function ArticleItem({
 export default function Publications() {
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen mt-6 md:mt-12 px-4 text-center">
-      <AnimatedText className="text-2xl md:text-5xl font-bold leading-snug">
+      <AnimatedText className="text-2xl md:text-5xl font-bold leading-snug " delay={0.1}>
         Academic Publications
       </AnimatedText>
 
       <AnimatedDivLine />
 
-      <AnimatedText className="max-w-3xl my-6 font-medium text-sm md:text-base text-justify" delay={0.1}>
+      <AnimatedText className="max-w-3xl my-6 font-medium text-sm md:text-base text-justify" delay={0.2}>
         <p>Throughout my academic journey (Master’s, PhD, and Postdoc, 2012–2019), I contributed to multiple research projects centered on intelligent systems and machine learning applications for real-world challenges. These efforts led to several peer-reviewed publications in top-tier journals and conferences, advancing the fields of machine learning, data mining, and optimization.</p>
       </AnimatedText>
 
        {/* Expandable Cards */}
       <div className="my-6 w-full max-w-3xl"> 
-        <AnimatedText className="mb-4" delay={0.2}>
+        <AnimatedText className="mb-4" delay={0.4}>
           <ExpandableCard title="Journals">
             {publications.journals.map((pub, idx) => (
               <ArticleItem key={idx} {...pub} />
@@ -127,7 +127,7 @@ export default function Publications() {
           </ExpandableCard>
         </AnimatedText>       
 
-        <AnimatedText className="mb-4" delay={0.3}>
+        <AnimatedText className="mb-4" delay={0.6}>
           <ExpandableCard title="Conference Proceedings">
             {publications.conferences.map((pub, idx) => (
               <ArticleItem key={idx} {...pub} />
@@ -135,7 +135,7 @@ export default function Publications() {
           </ExpandableCard>
         </AnimatedText>
 
-        <AnimatedText className="mb-4" delay={0.4}>
+        <AnimatedText className="mb-4" delay={0.8}>
           <ExpandableCard title="Technical Reports">
             {publications.technicalReports.map((pub, idx) => (
               <ArticleItem key={idx} {...pub} />
@@ -146,7 +146,7 @@ export default function Publications() {
 
       <AnimatedText
         className="max-w-xl mb-4 text-sm md:text-base"
-        delay={0.6}
+        delay={1.0}
       >
         Or you can explore my academic work, including citations, and h-index on my public <b>Google Scholar</b> profile.
       </AnimatedText>
