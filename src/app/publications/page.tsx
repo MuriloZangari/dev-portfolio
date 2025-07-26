@@ -156,7 +156,7 @@ export default function Publications() {
           href="https://scholar.google.com/citations?hl=en&user=8Uf2cbUAAAAJ"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-4 py-2 mb-10 bg-white dark:bg-gray-900 border border-sky-500 text-sky-700 dark:text-sky-300 font-medium rounded hover:bg-sky-50 dark:hover:bg-gray-700 transition"
+          className="inline-flex items-center px-4 py-2 mb-10 bg-gray-100 dark:bg-gray-900 border border-sky-500 text-sky-700 dark:text-sky-300 font-medium rounded hover:bg-sky-50 dark:hover:bg-gray-700 transition"
         >
           Visit Google Scholar
           <ExternalLink className="ml-2" size={18} />

@@ -22,6 +22,7 @@ const experienceData = [
       'Designed and deployed a CV screening pipeline by integrating LLMs (Ollama) into a Django application to extract and structure candidate data. Applied prompt engineering, external API integration, and asynchronous processing, aligning AI automation with business needs.',
       'Delivered projects on time, maintained thorough documentation, and collaborated cross-functionally with developers, PMs, and stakeholders.',
     ],
+    tags: 'Next.js, React, Tailwind CSS, Django, RESTful APIs, PostgreSQL, AWS, Docker, Terraform, LLMs',
   },
   {
     title: 'Associate Policy Enforcement Analyst - IP Operations',
@@ -34,6 +35,7 @@ const experienceData = [
       'Provided training and support to internal teams on policy guidelines and best practices, fostering a culture of compliance and accountability.',
       'Developed soft skills highly valuable to engineering roles: attention to detail, critical thinking, communication under pressure, and cross-functional collaboration in a fast-paced, global operation.',
     ],
+    tags: 'Quality Assurance, Cross-functional Collaboration, Attention to Detail, Critical Thinking, Communication',
   },
   {
     title: 'Ph.D. in Computer Science & Postdoctoral Fellow in Computational Intelligence',
@@ -46,6 +48,7 @@ const experienceData = [
       'Authored, published, and presented 10+ peer-reviewed research papers in top-tier journals and conferences in the fields of Artificial Intelligence and Computational Intelligence.',
       'Collaborated with cross-functional research teams and advised junior researchers.',
     ],
+    tags: 'Machine Learning, C++, Python, Statistical Analysis, Experimental Design, Research',
   },
   {
     title: 'Master in Computer Science',
@@ -57,6 +60,7 @@ const experienceData = [
       'Applied experimental design to assess different learning strategies, optimizing parameters through iterative testing and cross-validation.',
       'Published research findings in peer-reviewed conferences, and actively contributed to collaborative academic projects focused on intelligent systems and applied AI.',
     ],
+    tags: 'Machine Learning, Data Analysis, Feature Selection, Model Evaluation, Experimental Design',
   },
 ];
 
@@ -68,6 +72,7 @@ export default function Experience({ scrollRef }: ExperienceProps) {
         company={exp.company}
         period={exp.period}
         bullets={exp.bullets}
+        tags={exp.tags}
       />
     ),
   }));

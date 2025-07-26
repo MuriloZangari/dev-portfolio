@@ -20,9 +20,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full p-4 md:p-10 flex justify-between items-center">
+    <header className="w-full px-4 md:px-10 py-4 flex items-center justify-between">
       {/* Desktop navigation */}
-      <nav className="hidden md:flex gap-6 mx-auto">
+      <nav className="hidden md:flex gap-6">
         {navLinks.map(({ href, label }) => (
           <AnimatedLink key={href} href={href}>
             {label}
@@ -30,21 +30,24 @@ export default function Header() {
         ))}
       </nav>
 
-      {/* Mobile: Hamburger icon */}
-      <div className="md:hidden z-50">
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="text-gray-800 dark:text-white"
-          aria-label="Toggle menu"
-        >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
+      {/* Right section: Theme toggle and hamburger */}
+      <div className="flex items-center gap-4">
+        {/* Theme toggle always visible */}
+        <ThemeToggle />
+
+        {/* Mobile: Hamburger icon */}
+        <div className="md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-gray-800 dark:text-white"
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
       </div>
 
-      {/* Theme toggle always visible */}
-      <ThemeToggle />
-
-      {/* Mobile overlay menu */}
+      {/* Mobile overlay */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

@@ -53,7 +53,7 @@ export default function Home() {
           that showcase my expertise in web development, DevOps, and AI-drivenapplications.
         </AnimatedText>
 
-        <div className="flex flex-wrap gap-12 items-center justify-center md:justify-start mx-auto">
+        <div className="flex flex-wrap gap-12 items-center pt-6 md:pt-0 justify-center md:justify-start mx-auto">
           <AnimatedText delay={0.4}>
             <a
               href="/resume"

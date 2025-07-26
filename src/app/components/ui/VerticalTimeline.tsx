@@ -27,11 +27,11 @@ export default function VerticalTimeline({
   });
 
   return (
-    <div ref={scrollRef} className="relative pl-4">
+    <div ref={scrollRef} className="relative">
       {/* Linha vertical animada */}
       <motion.div
         style={{ scaleY: scrollYProgress }}
-        className={`absolute left-[22px] top-2 w-[4px] h-full origin-top rounded shadow-md shadow-sky-900 dark:shadow-sky-100 ${lineColor}`}
+        className={`absolute left-[7px] top-2 w-[4px] h-full origin-top rounded shadow-md shadow-sky-900 dark:shadow-sky-100 ${lineColor}`}
       />
 
       <div className="flex flex-col gap-10">
