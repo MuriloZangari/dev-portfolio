@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <section className="relative min-h-screen w-full px-4 py-12 md:py-24 flex flex-col md:flex-row items-center justify-center gap-12 overflow-hidden">
+    <section className="relative min-h-screen w-full px-4 py-12 md:py-24 flex flex-col md:flex-row items-center justify-center gap-12 overflow-hidden ">
       {/* IMAGEM - esquerda no desktop, topo no mobile */}
       <motion.img
         src="/murilo-profile2.png"
