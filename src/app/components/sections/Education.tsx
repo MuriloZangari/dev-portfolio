@@ -1,3 +1,4 @@
+// src/app/components/sections/Education.tsx
 'use client';
 
 import { RefObject } from 'react';

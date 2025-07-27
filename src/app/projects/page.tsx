@@ -4,10 +4,16 @@ import MainProjectCard from "../components/ui/MainProjectCard";
 
 export default function Projects() {
   return (
-    <div className="relative w-full max-w-[720px] mx-auto py-4 md:py-10">
-      <AnimatedText as="div" className="items-center justify-center mb-8 mx-auto" delay={0.1}>
-        <h1 className="text-3xl md:text-5xl font-bold leading-snug">Imagination Trumps Knowledge!</h1>
-      </AnimatedText>  
+    <div className="relative w-full max-w-[720px] mx-auto py-4 md:py-10 mb-6 md:mb-10">
+      <AnimatedText
+        as="div"
+        className="items-center justify-center mb-8 mx-auto"
+        delay={0.1}
+      >
+        <h1 className="text-3xl md:text-5xl font-bold leading-snug">
+          Imagination Trumps Knowledge!
+        </h1>
+      </AnimatedText>
 
       <AnimatedText as="div" className="mb-12" delay={0.3}>
         <MainProjectCard
@@ -21,7 +27,7 @@ export default function Projects() {
       </AnimatedText>
 
       {/* Responsive grid: 1 column on mobile, 2 columns from md up */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-6 md:mb-10">
         <AnimatedText as="div" className="" delay={0.4}>
           <ProjectCard
             image="/bank-churn.png"
@@ -55,6 +61,26 @@ export default function Projects() {
             tags="Feature Engineering, Supervised Classification, Data Cleaning, XGBoost"
             link="https://www.kaggle.com/code/murilozangari/tiktok-video-claims-prediction"
           />
+        </AnimatedText>
+      </div>
+      <div className="flex flex-wrap gap-12 items-center pt-6 md:pt-0 justify-center md:justify-center mx-auto">
+        <AnimatedText delay={0.8}>
+          <div className="flex justify-center">
+            <a
+              href="/publications"
+              className="inline-flex items-center px-4 py-4 bg-gray-900 dark:bg-gray-100 border border-black dark:border-white text-gray-100 dark:text-gray-900 font-medium rounded-4xl hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-gray-100 transition"
+            >
+              View Publications
+            </a>
+          </div>
+        </AnimatedText>
+        <AnimatedText delay={0.9}>
+          <a
+            href="/contact"
+            className="text-sm md:text-base underline font-medium"
+          >
+            Contact
+          </a>
         </AnimatedText>
       </div>
     </div>

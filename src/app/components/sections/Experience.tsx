@@ -22,7 +22,7 @@ const experienceData = [
       'Designed and deployed a CV screening pipeline by integrating LLMs (Ollama) into a Django application to extract and structure candidate data. Applied prompt engineering, external API integration, and asynchronous processing, aligning AI automation with business needs.',
       'Delivered projects on time, maintained thorough documentation, and collaborated cross-functionally with developers, PMs, and stakeholders.',
     ],
-    tags: 'Next.js, React, Tailwind CSS, Django, RESTful APIs, PostgreSQL, AWS, Docker, Terraform, LLMs',
+    tags: 'Software Engineering, DevOps, Node.js, Next.js, React, Tailwind CSS, Python, Django, RESTful APIs, PostgreSQL, Unix, AWS, Docker, Terraform, Git Actions, LLMs, Prompt Engineering, Project Management, Agile Methodologies',
   },
   {
     title: 'Associate Policy Enforcement Analyst - IP Operations',
@@ -35,7 +35,7 @@ const experienceData = [
       'Provided training and support to internal teams on policy guidelines and best practices, fostering a culture of compliance and accountability.',
       'Developed soft skills highly valuable to engineering roles: attention to detail, critical thinking, communication under pressure, and cross-functional collaboration in a fast-paced, global operation.',
     ],
-    tags: 'Quality Assurance, Cross-functional Collaboration, Attention to Detail, Critical Thinking, Communication',
+    tags: 'Quality Assurance, Cross-functional Collaboration, Attention to Detail, Critical Thinking, Communication, Leadership, Policy Enforcement, AI Safety',
   },
   {
     title: 'Ph.D. in Computer Science & Postdoctoral Fellow in Computational Intelligence',
@@ -48,7 +48,7 @@ const experienceData = [
       'Authored, published, and presented 10+ peer-reviewed research papers in top-tier journals and conferences in the fields of Artificial Intelligence and Computational Intelligence.',
       'Collaborated with cross-functional research teams and advised junior researchers.',
     ],
-    tags: 'Machine Learning, C++, Python, Statistical Analysis, Experimental Design, Research',
+    tags: 'Machine Learning, C++, Python, Statistical Analysis, Experimental Design, Research, Optimization',
   },
   {
     title: 'Master in Computer Science',

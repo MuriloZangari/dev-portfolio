@@ -23,17 +23,17 @@ export default function Resume() {
         <About />
       </AnimatedText>
 
-      <div ref={experienceRef}>
-        <AnimatedText as="div" className="mb-8" delay={0.3}>
+      <AnimatedText as="div" className="mb-8" delay={0.3}>
+        <div ref={experienceRef}>
           <Experience scrollRef={experienceRef} />
-        </AnimatedText>
-      </div>
+        </div>
+      </AnimatedText>
 
-      <div ref={educationRef}>
-        <AnimatedText as="div" className="mb-8" delay={0.4}>
+      <AnimatedText as="div" className="mb-8" delay={0.4}>
+        <div ref={educationRef}>
           <Education scrollRef={educationRef} />
-        </AnimatedText>
-      </div>
+        </div>
+      </AnimatedText>
 
       <AnimatedText as="div" className="mb-8" delay={0.5}>
         <Skills />
@@ -42,16 +42,26 @@ export default function Resume() {
         <Certifications />
       </AnimatedText>
 
-      <AnimatedText delay={0.8}>
-        <div className="flex justify-center">
+      <div className="flex flex-wrap gap-12 items-center pt-6 md:pt-0 justify-center md:justify-center mx-auto mb-6 md:mb-10">
+        <AnimatedText delay={0.8}>
+          <div className="flex justify-center">
+            <a
+              href="/projects"
+              className="inline-flex items-center px-4 py-4 bg-gray-900 dark:bg-gray-100 border border-black dark:border-white text-gray-100 dark:text-gray-900 font-medium rounded-4xl hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-gray-100 transition"
+            >
+              Portfolio Projects!
+            </a>
+          </div>
+        </AnimatedText>
+        <AnimatedText delay={0.9}>
           <a
-            href="/projects"
-            className="inline-flex items-center px-4 py-4 bg-gray-900 dark:bg-gray-100 border border-black dark:border-white text-gray-100 dark:text-gray-900 font-medium rounded-4xl hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-gray-100 transition"
+            href="/contact"
+            className="text-sm md:text-base underline font-medium"
           >
-            Portfolio Projects!
+            Contact
           </a>
-        </div>
-      </AnimatedText>
+        </AnimatedText>
+      </div>
     </div>
   );
 }

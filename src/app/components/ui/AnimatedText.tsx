@@ -1,3 +1,4 @@
+// src/app/components/ui/AnimatedText.tsx
 'use client';
 
 import { motion } from 'framer-motion';

@@ -1,3 +1,4 @@
+// src/app/components/ui/ExpandableCard.tsx
 'use client';
 
 import { useRef, useState, useEffect, ReactNode } from 'react';
