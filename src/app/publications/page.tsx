@@ -162,6 +162,27 @@ export default function Publications() {
           <ExternalLink className="ml-2" size={18} />
         </a>
       </AnimatedText>
+
+      <div className="flex flex-wrap gap-12 items-center pt-6 md:pt-0 justify-center md:justify-center mx-auto mb-6 md:mb-10">
+              <AnimatedText delay={0.8}>
+                <div className="flex justify-center">
+                  <a
+                    href="/home"
+                    className="inline-flex items-center px-4 py-4 bg-gray-900 dark:bg-gray-100 border border-black dark:border-white text-gray-100 dark:text-gray-900 font-medium rounded-4xl hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-gray-900 dark:hover:text-gray-100 transition"
+                  >
+                    Home Page
+                  </a>
+                </div>
+              </AnimatedText>
+              <AnimatedText delay={0.9}>
+                <a
+                  href="/contact"
+                  className="text-sm md:text-base underline font-medium"
+                >
+                  Contact
+                </a>
+              </AnimatedText>
+            </div>
     </section>
   );
 }
