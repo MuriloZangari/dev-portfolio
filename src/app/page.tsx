@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <section className="relative min-h-screen w-full p-4 flex flex-col items-center justify-center gap-12 overflow-hidden">
-      
+    <section className="relative min-h-screen w-full p-2 md:p-4 flex flex-col items-center justify-center gap-12 overflow-hidden">
+
       {/* BLOCO COM IMAGEM + TEXTO LADO A LADO */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 w-full max-w-7xl">
         {/* IMAGEM */}
@@ -79,7 +79,7 @@ export default function Home() {
       </div>
 
       {/* 🔽 SCROLLING SKILLS SEPARADO ABAIXO */}
-      <div className="w-full px-4 max-w-7xl my-12">
+      <div className="w-full max-w-7xl my-12">
         <AnimatedText
           
           delay={0.9}
