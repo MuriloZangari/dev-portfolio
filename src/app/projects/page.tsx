@@ -11,7 +11,7 @@ export default function Projects() {
         delay={0.1}
       >
         <h1 className="text-3xl md:text-5xl font-bold leading-snug">
-          Imagination Trumps Knowledge!
+          Insight Over Information!
         </h1>
       </AnimatedText>
 
