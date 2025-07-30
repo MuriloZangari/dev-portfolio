@@ -79,7 +79,7 @@ export default function Home() {
       </div>
 
       {/* 🔽 SCROLLING SKILLS SEPARADO ABAIXO */}
-      <div className="w-full px-4 max-w-7xl">
+      <div className="w-full px-4 max-w-7xl my-12">
         <AnimatedText
           
           delay={0.9}

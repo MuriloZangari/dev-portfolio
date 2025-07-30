@@ -49,7 +49,7 @@ export default function ScrollingSkills() {
       {/* 🔸 Card principal com animação */}
       <div className="relative z-10 w-full overflow-hidden border border-gray-800 dark:border-white bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-sky-300 bg-opacity-80 rounded-2xl py-3 min-h-[48px] flex items-center">
         <motion.div
-          className="flex gap-12 whitespace-nowrap px-4 text-sm md:text-base font-mono absolute"
+          className="flex gap-12 whitespace-nowrap px-4 text-sm md:text-base font-mono font-bold absolute"
           animate={controls}
         >
           {[...skills, ...skills].map((skill, idx) => (
