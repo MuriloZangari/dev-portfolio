@@ -32,7 +32,7 @@ export default function Projects() {
           <ProjectCard
             image="/bank-churn.png"
             title="Customer Bank Churn Prediction"
-            tags="Machine Learning, Feature Engineering, Supervised Classification"
+            tags="Machine Learning, ML Pipeline, Feature Engineering, Supervised Classification, EDA, XGBoost, Python"
             link="https://www.kaggle.com/code/murilozangari/customer-bank-churn-prediction"
           />
         </AnimatedText>
@@ -40,7 +40,7 @@ export default function Projects() {
           <ProjectCard
             image="/customer.png"
             title="Customer Segmentation with Marketing Campaign Effectiveness Analysis"
-            tags="Data Cleaning, K-Means Clustering, EDA"
+            tags="Data Cleaning, K-Means Clustering, EDA, Power BI, Data Visualization"
             link="https://www.kaggle.com/code/murilozangari/customer-segmentation-eda-clustering"
             github="https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9"
           />
@@ -49,7 +49,7 @@ export default function Projects() {
           <ProjectCard
             image="/job-salary.png"
             title="Jobs And Salaries In Data-Related Careers 2024"
-            tags="Machine Learning, Data Visualization, EDA"
+            tags="Machine Learning, Data Visualization, EDA, Power BI, Data Cleaning"
             link="https://www.kaggle.com/code/murilozangari/jobs-data-field-2024-eda-salary-estimation"
             github="https://app.powerbi.com/view?r=eyJrIjoiOTA1NGI5NzUtY2FlMi00NDc0LWE0M2QtZWZiOGJjZWZhMDIwIiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9&pageName=ReportSection517ec5a072d57ff231ad"
           />

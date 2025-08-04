@@ -78,6 +78,18 @@ const publications = {
       link: "https://arxiv.org/abs/1511.05625",
     },
   ],
+  academicTheses: [
+    {
+      title: "Ph.D. Thesis – Innovative Hybrid MOEA/D Variants for Solving Multi-objective Combinatorial Optimization Problems",
+      venue: "Federal University of Paraná (UFPR), 2016",
+      link: "https://acervodigital.ufpr.br/xmlui/handle/1884/46123?show=full",
+    },
+    {
+      title: "Master’s Dissertation – Extensions of Ant-Miner Algorithm for Imbalanced Datasets",
+      venue: "State University of Maringá (UEM), 2012",
+      link: "http://repositorio.uem.br:8080/jspui/handle/1/2521",
+    },
+  ],
 };
 
 function ArticleItem({
@@ -139,6 +151,13 @@ export default function Publications() {
         <AnimatedText className="mb-4" delay={0.8}>
           <ExpandableCard title="Technical Reports">
             {publications.technicalReports.map((pub, idx) => (
+              <ArticleItem key={idx} {...pub} />
+            ))}
+          </ExpandableCard>
+        </AnimatedText>
+        <AnimatedText className="mb-4" delay={1.0}>
+          <ExpandableCard title="Academic Theses">
+            {publications.academicTheses.map((pub, idx) => (
               <ArticleItem key={idx} {...pub} />
             ))}
           </ExpandableCard>
