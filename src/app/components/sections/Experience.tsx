@@ -42,25 +42,27 @@ const experienceData = [
     company: 'Federal University of Paraná',
     period: '2013–2019',
     bullets: [
-      'Developed machine learning-based solutions using C++ and Python for solving complex real-world problems in scheduling, optimization, and data mining.',
-      'Achieved state-of-the-art results across all case studies, validated through statistical analysis, hypothesis testing, and rigorous experimental design.',
-      'Designed, executed multiple experiments using statistical modeling, performance metrics and data-driven methodologies in alignment with the scientific method.',
+      'Developed innovative meta-heuristics solutions based on swarm intelligence and probabilistic models (e.g., Estimation of Distribution Algorithms) using C++ and Python for solving complex real-world combinatorial optimization problems with multiple objectives, such as vehicle routing, scheduling, and resource allocation.',
+      'Applied advanced statistical analysis, hypothesis testing, and experimental design to validate algorithm performance, achieving state-of-the-art results across multiple case studies.',
+      'Designed and executed experiments using statistical modeling, performance metrics, and data-driven methodologies in alignment with the scientific method.',
       'Authored, published, and presented 10+ peer-reviewed research papers in top-tier journals and conferences in the fields of Artificial Intelligence and Computational Intelligence.',
-      'Collaborated with cross-functional research teams and advised junior researchers.',
+      'Collaborated with cross-functional research teams and advised junior researchers, enhancing the academic community through mentorship and knowledge sharing.',
     ],
-    tags: 'Machine Learning, C++, Python, Statistical Analysis, Experimental Design, Research, Optimization',
+    tags: 'Meta-heuristics, Machine Learning, C++, Python, Statistical Analysis, Experimental Design, Research, Optimization, Swarm Intelligence, Probabilistic Models, Estimation of Distribution Algorithms, Multi-objective Optimization',
   },
+
   {
     title: 'Master in Computer Science',
     company: 'State University of Maringá',
     period: '2011–2012',
     bullets: [
-      'Designed and implemented machine learning models to solve real-world problems in classification, prediction, and pattern recognition.',
-      'Conducted extensive data analysis and feature selection, followed by model evaluation using statistical validation techniques and performance metrics.',
+      'Designed and implemented a machine learning model based on Ant Colony Optimization meta-heuristic for the classification task from Data Mining, focusing on model performance on imbalanced datasets, and building human comprehensive classification rules for interpretability.',
+      'Conducted extensive data analysis and feature selection, followed by model evaluation using statistical validation techniques and performance metrics on a real healthcare dataset.',
+      'Developed a comprehensive understanding of machine learning algorithms, data preprocessing, and model evaluation techniques, applying them to real-world datasets.',
       'Applied experimental design to assess different learning strategies, optimizing parameters through iterative testing and cross-validation.',
       'Published research findings in peer-reviewed conferences, and actively contributed to collaborative academic projects focused on intelligent systems and applied AI.',
     ],
-    tags: 'Machine Learning, Data Analysis, Feature Selection, Model Evaluation, Experimental Design',
+    tags: 'Machine Learning, Data Analysis, Feature Selection, Model Evaluation, Experimental Design, Ant Colony Optimization, Data Mining, Classification, Imbalanced Datasets, Healthcare Data, Research',
   },
 ];
 
