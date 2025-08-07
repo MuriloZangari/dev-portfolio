@@ -35,7 +35,7 @@ export default function MainProjectCard({
                 alt={title}
                 width={600}
                 height={400}
-                className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 priority
             />
         </div>
@@ -43,10 +43,7 @@ export default function MainProjectCard({
 
         {/* Content */}
         <div className="p-4 flex flex-col justify-center w-full md:w-1/2 gap-2">
-          <span className="text-sm text-sky-600 dark:text-sky-400 font-semibold uppercase">
-            Featured Project
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-bold leading-tight">
+          <h2 className="text-xl md:text-2xl font-bold leading-tight">
             {title}
           </h2>
           <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300">

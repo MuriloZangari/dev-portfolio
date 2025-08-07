@@ -26,6 +26,17 @@ export default function Projects() {
         />
       </AnimatedText>
 
+      <AnimatedText as="div" className="mb-12" delay={0.3}>
+        <MainProjectCard
+          image="/chatbot.png"
+          title="AI Chatbot with LLM and Python API"
+          description="AI Chatbot for vehicle financing using a model hosted at IBM Watsonx.ai and its Python official SDK."
+          tags="AI, Chatbot, LLM, Python, API, IBM Watsonx.ai, IBM Cloud"
+          link="https://github.com/MuriloZangari/chatbot-using-IBM-watson"
+          github="https://github.com/MuriloZangari/chatbot-using-IBM-watson"
+        />
+      </AnimatedText>
+
       {/* Responsive grid: 1 column on mobile, 2 columns from md up */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-6 md:mb-10">
         <AnimatedText as="div" className="" delay={0.4}>
