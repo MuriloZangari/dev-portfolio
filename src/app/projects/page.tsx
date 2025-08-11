@@ -47,6 +47,15 @@ export default function Projects() {
             link="https://www.kaggle.com/code/murilozangari/customer-bank-churn-prediction"
           />
         </AnimatedText>
+        <AnimatedText as="div" className="" delay={0.2}>
+          <ProjectCard
+            image="/deep-learning.png"
+            title="Human Activity Recognition with Smartphones"
+            tags="Deep Learning, PyTorch, TensorFlow, CNN, LSTM, performance metrics, error analysis"
+            link="https://github.com/MuriloZangari/human-activity-recognation"
+            github="https://github.com/MuriloZangari/human-activity-recognation"
+          />
+        </AnimatedText>
         <AnimatedText as="div" className="" delay={0.5}>
           <ProjectCard
             image="/customer.png"
@@ -56,6 +65,14 @@ export default function Projects() {
             github="https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9"
           />
         </AnimatedText>
+        <AnimatedText as="div" className="" delay={0.8}>
+          <ProjectCard
+            image="/tiktok.png"
+            title="TikTok Video Claims Prediction"
+            tags="Feature Engineering, Supervised Classification, Data Cleaning, XGBoost"
+            link="https://www.kaggle.com/code/murilozangari/tiktok-video-claims-prediction"
+          />
+        </AnimatedText>
         <AnimatedText as="div" className="" delay={0.6}>
           <ProjectCard
             image="/job-salary.png"
@@ -63,14 +80,6 @@ export default function Projects() {
             tags="Machine Learning, Data Visualization, EDA, Power BI, Data Cleaning"
             link="https://www.kaggle.com/code/murilozangari/jobs-data-field-2024-eda-salary-estimation"
             github="https://app.powerbi.com/view?r=eyJrIjoiOTA1NGI5NzUtY2FlMi00NDc0LWE0M2QtZWZiOGJjZWZhMDIwIiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9&pageName=ReportSection517ec5a072d57ff231ad"
-          />
-        </AnimatedText>
-        <AnimatedText as="div" className="" delay={0.8}>
-          <ProjectCard
-            image="/tiktok.png"
-            title="TikTok Video Claims Prediction"
-            tags="Feature Engineering, Supervised Classification, Data Cleaning, XGBoost"
-            link="https://www.kaggle.com/code/murilozangari/tiktok-video-claims-prediction"
           />
         </AnimatedText>
       </div>
